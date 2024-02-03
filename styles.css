@@ -1,0 +1,55 @@
+/*background image*/
+body {
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+/* the name of the website*/
+h1 {
+    color: gold;
+    font-size: large;
+    text-align: start;
+    font-style: initial;
+}
+/*alligning the navigation menu*/
+nav ul {
+    text-align: center;
+    list-style: none;
+    padding: 0%;
+    
+}
+nav li {
+    display: inline;
+    margin-right: 20px;
+    
+}
+nav li:last-child{
+    margin-right: 0;
+}
+nav a{
+    text-decoration: none;
+    color: gold;
+}
+/*the introductory statement*/
+h2 {
+    color: goldenrod;
+    font-style:inherit;
+    font-weight: 100;
+}
+.image-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.image-container img {
+    width: 33%;
+    height:auto;
+}
+
+nav a1 {
+text-decoration: none;
+color: gold;
+}
+h5 {
+    color: goldenrod;
+}

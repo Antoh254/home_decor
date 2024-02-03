@@ -1,0 +1,34 @@
+body {
+    background-image: url('socialbgd.jpg');
+    background-size: cover;
+    background-repeat: repeat;
+}
+h1  {
+    color: red;
+    text-align: center;
+    
+    font-size: xx-large;
+   
+}
+
+.social-media {
+    font-size: 50px;
+    text-align: center;
+    display:inline-flex;
+    
+   
+    
+
+}
+.social-media a {
+    text-decoration:solid;
+    font-size:80px;
+    color: white ;
+    margin: 0 10xp;
+    
+}
+h2 {
+    color:aqua;
+    font-size: large;
+
+}

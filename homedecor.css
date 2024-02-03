@@ -1,0 +1,93 @@
+body {
+    background-image: url('homed.jpg');
+}
+h1 {
+    color: gray;
+    text-align: center;
+}
+.categories  {
+    display: flex;
+    flex-wrap: wrap;
+}
+.living_room  {
+    width: 350px;
+    height: 350px; 
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('livingroom.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    /*background-color: #333;*/
+    color:black;
+    font-weight: bold;
+    text-align: center;
+    font-size: large;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+.living_room:hover {
+    background-color: #4e33ff;
+}
+.bedroom  {
+    width: 350px;
+    height: 350px; 
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('bedroom.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    /*background-color: #333;*/
+    color:black;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+.bedroom :hover {
+    background-color: #FF5733;
+}
+.kitchen  {
+    width: 350px;
+    height: 350px; 
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('kitchend.jpg');
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    /*background-color: #333;*/
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+.kitchen:hover {
+    background-color: #FF5733;
+}
+.bathroom  {
+    width: 350px;
+    height: 350px; 
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('bath.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    /*background-color: #333;*/
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+.bathroom :hover {
+    background-color: #FF5733;
+}
